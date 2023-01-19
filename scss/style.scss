@@ -1,0 +1,10 @@
+@use "global" as *;
+
+html {
+  min-height: 100vh;
+  background-color: $c_darkGray;
+}
+
+header {
+  @include posAbs($top: 0);
+}
